@@ -1,21 +1,31 @@
-.div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+body{
+  background-image: url("iqiyibackground.png");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  color: black;
+}
+
+.table {
+  border-radius: 10px;
+  background-color: white;
+  padding: 55px;
+  width: 35%;
 }
   
-input[type=submit] {
+button[type=Login] {
   width: 100%;
   background-color: #4CAF50;
   color: white;
-  padding: 14px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-input[type=button] {
+button[type=ForgotPassword] {
   width: 100%;
   background-color: white;
   color: green;
@@ -25,26 +35,22 @@ input[type=button] {
   border-radius: 4px;
   cursor: pointer;
 }
-.container {
-  padding:16px;
-}
 
-input[type=text], select {
+input[type=text],[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid gray;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-input[type=password], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.text {
+  color: green;
 }
+
+.link {
+  color:gray
+}
+

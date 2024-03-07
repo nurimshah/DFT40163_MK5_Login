@@ -4,6 +4,7 @@
   background-color: #171d25;
   background-size: 118%;
   background-blend-mode: overlay;
+  background-repeat: no-repeat;
 }
 
 .title {

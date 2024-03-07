@@ -1,6 +1,9 @@
 .main{
   background-image: url("iqiyibackground.png");
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #171d25;
+  background-size: 118%;
+  background-blend-mode: overlay;
 }
 
 .title {
@@ -53,6 +56,7 @@
 .text {
   text-align: center;
   color: green;
+  cursor: pointer;
 }
 
 .link {

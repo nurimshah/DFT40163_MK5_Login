@@ -1,10 +1,10 @@
 .main{
   background-image: url("iqiyibackground.png");
-  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
   background-color: #171d25;
   background-size: 118%;
   background-blend-mode: overlay;
-  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {

@@ -13,13 +13,11 @@
   background-color: white;
   padding: 55px;
   width: 35%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: auto;
+  margin: auto;
+  margin-top: 70px;
 }
   
-button[type=Login] {
+.btnlogin{
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -28,9 +26,10 @@ button[type=Login] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  position: relative;
 }
 
-button[type=ForgotPassword] {
+.btnpassword {
   width: 100%;
   background-color: white;
   color: green;
@@ -41,7 +40,7 @@ button[type=ForgotPassword] {
   cursor: pointer;
 }
 
-input[type=text],[type=password] {
+.insert {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
